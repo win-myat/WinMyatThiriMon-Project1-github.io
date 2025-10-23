@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Workshops</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="container-fluid">
+        <div class="logo">Bean <span class="color">Boutique</span> <img src="./images/cup-of-drink.png" alt=""></div>
+        <div class="nav" id="cafenav">
+            <a href="index.html">Home</a>
+            <a href="coffee.html">Coffee Selection</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="events.html" class="active">Events</a>
+            <a href="cart.html">Cart</a>
+            <a href="subs.html">Subscriptions</a>
+            <a href="javascript:void(0);" class="icon" onclick=" myFunction()">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+    </div>
+    <!-- nav bar -->
+
+    <!--Events and Workshops  -->
+    <section class="event">
+        <h2>Events and Workshops</h2>
+        <div class="container">
+            <div class="section">
+                <div class="eventrow">
+                    <div class="twocol">
+                        <img src="./images/event2.jpg" alt="">
+                    </div>
+                    <div class="twocol">
+                        <div class="text">
+                            <h3>ACOUSTIC AFTERNOONS</h3>
+                            <p>Relax and unwind with soothing live acoustic performances while enjoying your favorite
+                                coffee
+                                drinks. A cozy, friendly atmosphere where music and the aroma of fresh coffee come
+                                together
+                                beautifully.</p>
+                            <p>DATE: Weekly Friday</p>
+                            <p>TIME: 13:00</p>
+                            <a href="#register-here" class="btn">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="section">
+                <div class="eventrow">
+                    <div class="twocol">
+                        <div class="text">
+                            <h3>BOARD GAME BONANZA</h3>
+                            <p>Bring your friends or make new ones while playing a variety of fun board games. Enjoy
+                                delicious
+                                coffee, laughter, and friendly competition in a welcoming and lively environment.</p>
+                            <p>DATE: Every Sunday</p>
+                            <p>TIME: 15:00</p>
+                            <a href="#register-here" class="btn">Register</a>
+                        </div>
+                    </div>
+                    <div class="twocol">
+                        <img src="./images/event3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="section">
+                <div class="eventrow">
+                    <div class="twocol">
+                        <img src="./images/event1.webp" alt="">
+                    </div>
+                    <div class="twocol">
+                        <div class="text">
+                            <h3>LATTE ART LAB</h3>
+                            <p>Learn how to create stunning latte art designs under the guidance of our skilled
+                                baristas.
+                                Perfect for beginners and coffee enthusiasts looking to impress friends and share on
+                                Instagram.
+                            </p>
+                            <p>DATE: Weekly Wednesday</p>
+                            <p>TIME: 13:00</p>
+                            <a href="#register-here" class="btn">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="section">
+                <div class="eventrow">
+                    <div class="twocol">
+                        <div class="text">
+                            <h3>BARISTA FOR A DAY EXPERIENCE</h3>
+                            <p>Step behind the counter and exprience life as a barista! Learn espresso making, milk
+                                steaming, latte art and serve drinks in a fun hands-on session.</p>
+                            <p>DATE: Every Saturday</p>
+                            <p>TIME: 15:00</p>
+                            <a href="#register-here" class="btn">Register</a>
+                        </div>
+                    </div>
+                    <div class="twocol">
+                        <img src="./images/event-4.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Events and Workshops -->
+    <!-- register box -->
+    <section class="contact" id="register-here">
+        <div class="container">
+            <h2>Register Here</h2>
+            <div class="box1">
+                <h3>Register Form</h3>
+                <input type="text" id="firstName" placeholder="Enter First Name" class="form-control">
+                <input type="text" id="lastName" placeholder="Enter last Name" class="form-control">
+                <input type="email" id="email" placeholder="Enter Your Email" class="form-control">
+                <input type="text" id="eventName" placeholder="Enter Event Name" class="form-control">
+                <textarea placeholder="Enter Your Message" class="form-control"></textarea>
+                <button class="rgbtn" onclick="submitRegister()">Register</button>
+            </div>
+        </div>
+    </section>
+    <!-- register box -->
+
+    <!-- footer -->
+    <footer class="ft">
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col-5">
+                        <h2 class="color">Bean Boutique </h2>
+                        <p>Bean Boutique is a cozy coffee destination offering premium brews, fresh pastries, and warm
+                            service for unforgettable café experiences.</p>
+                    </div>
+                    <div class="col5">
+                        <h3 class="color">Quick Search</h3>
+                        <a href="index.html" class="link">Home</a>
+                        <a href="coffee.html" class="link">Coffee Selection</a>
+                        <a href="equipment.html" class="link">Equipment</a>
+                        <a href="events.html" class="link">Events</a>
+                        <a href="cart.html" class="link">Cart</a>
+                        <a href="subs.html" class="link">Subscription</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="color">Contact Information</h3>
+                        <p> N0.24, Nyaung Qtr, Taunggyi</p>
+                        <p> beanboutique@gmail.com</p>
+                        <p>09423450194</p>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="color">Follow Us</h3>
+                        <i class="bi bi-facebook icon"></i>
+                        <i class="bi bi-twitter icon"></i>
+                        <i class="bi bi-instagram icon"></i>
+                        <i class="bi bi-linkedin icon"></i>
+                        <i class="bi bi-tiktok  icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

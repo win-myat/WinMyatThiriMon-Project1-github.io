@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Selection</Select></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body id="coffee-page">
+    <!-- nav bar -->
+    <div class="container-fluid">
+        <div class="logo">Bean <span class="color">Boutique</span> <img src="./images/cup-of-drink.png" alt=""></div>
+        <div class="nav" id="cafenav">
+            <a href="index.html">Home</a>
+            <a href="coffee.html" class="active">Coffee Selection</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="events.html">Events</a>
+            <a href="cart.html">Cart</a>
+            <a href="subs.html">Subscriptions</a>
+            <a href="javascript:void(0);" class="icon" onclick=" myFunction()">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+    </div>
+    <!-- nav bar -->
+
+    <!-- best seller -->
+    <div class="container">
+        <div class="search">
+            <input type="text" id="searchinput" placeholder="Enter product name">
+        </div>
+        <div class="section">
+            <h2>BEST SELLER</h2>
+            <hr>
+            <div class="row">
+                <div class="fivecol">
+                    <img src="./images/b-1.webp" alt="Cold Brew">
+                    <h4>Cold Brew</h4>
+                    <p>Cold Brew tastes smooth, bold, less acidic, refreshing, slightly sweet.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Cold Brew" data-price="10">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/b-2.jpg" alt="Ice Tea">
+                    <h4>Ice Tea</h4>
+                    <p>Iced Tea tastes refreshinf, light, mildly sweet, crisp, cooling and subtly aromatic.</p>
+                    <p>$15</p>
+                    <button class="btn add-to-cart" data-name="Ice Tea" data-price="15">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/b-3.jpg" alt="Ice Americano">
+                    <h4>Ice Americano</h4>
+                    <p>Ice Americano tastes bold, smooth, strong, slightly bitter, refreshing and energizing.</p>
+                    <p>$12</p>
+                    <button class="btn add-to-cart" data-name="Ice Americano" data-price="12">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/b-4.jpg" alt="Coconut Ice-cream">
+                    <h4>Coconut Ice-cream</h4>
+                    <p>Coconut ice cream tastes creamy, sweet, tropical, refreshing, nutty, smooth and delightfully
+                        cool.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Coconut Ice-cream" data-price="10">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/b-5.webp" alt="Hot Green Tea">
+                    <h4>Hot Green Tea </h4>
+                    <p>Hot green tea tastes earthy, soothing, slightly bitter, calming, fresh and midly sweet.</p>
+                    <p>$12</p>
+                    <button class="btn add-to-cart" data-name="Hot Green Tea" data-price="12">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- best seller -->
+        <!-- hot drink -->
+
+        <div class="section">
+            <h2>HOT DRINK</h2>
+            <hr>
+            <div class="row">
+                <div class="fivecol">
+                    <img src="./images/c-1.webp" alt="Morning Bliss">
+                    <h4>Morning Bliss</h4>
+                    <p>Smooth and mild coffee with gentle hints of caramel and sweet aroma.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Morning Bliss" data-price="10">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/c-2.jpg" alt="Cocoa Dreams">
+                    <h4>Cocoa Dreams</h4>
+                    <p>Rich chocolatey flavor with creamy texture and a subtle touch of sweetness.</p>
+                    <p>$15</p>
+                    <button class="btn add-to-cart" data-name="Cocoa Dreams" data-price="15">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/c-3.jpeg" alt="Twilight Roast">
+                    <h4>Twilight Roast</h4>
+                    <p>Bold and smoky coffee with a deep intense roasted flavor and aroma.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Twilight Roast" data-price="10">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/c-4.jpg" alt="Caramel Kiss">
+                    <h4>Caramel Kiss</h4>
+                    <p>Sweet caramel notes combined with smooth espresso, creating a comforting flavor.</p>
+                    <p>$15</p>
+                    <button class="btn add-to-cart" data-name="Caramel Kiss" data-price="15">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/c-5.jpg" alt="Golden Latte">
+                    <h4>Golden Latte</h4>
+                    <p>Silky and warm with perfect balance of milk, coffee and light spice.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Golden Latte" data-price="10">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- hot drink -->
+
+        <!-- Cold Drink -->
+
+        <div class="section">
+            <h2>COLD DRINK</h2>
+            <hr>
+            <div class="row">
+                <div class="fivecol">
+                    <img src="./images/h-1.webp" alt="Cold Brew">
+                    <h4>Cold Brew</h4>
+                    <p>Smooth, refreshing coffee with mild bitterness, subtly sweet and lightly chocolaty undertones.
+                    </p>
+                    <p>$20</p>
+                    <button class="btn add-to-cart" data-name="Cold Brew" data-price="20">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/h-2.webp" alt="Iced Orange Americano">
+                    <h4>Iced Orange Americano</h4>
+                    <p>Bold espresso with refreshing citrus notes, lightly bitter ,sweet and crisp finish.</p>
+                    <p>$15</p>
+                    <button class="btn add-to-cart" data-name="Iced Orange Americano" data-price="15">Add to
+                        Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/h-3.jpg" alt="Iced Dirty Matcha Latte">
+                    <h4>Iced Dirty Matcha Latte</h4>
+                    <p>Earthy matcha with creamy mikl, shot of espresso adds rich, bold flavor..</p>
+                    <p>$15</p>
+                    <button class="btn add-to-cart" data-name="Iced Dirty Matcha" data-price="15">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/h-4.webp" alt="Iced Coffee Rose">
+                    <h4>Iced Coffee Rose</h4>
+                    <p>Floral rose aroma with smooth coffee, lightly sweet, refreshing and delicately fragrant taste.
+                    </p>
+                    <p>$20</p>
+                    <button class="btn add-to-cart" data-name="Iced Coffee Rose" data-price="20">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/h-5.jpg" alt="Iced Latte">
+                    <h4>Iced Latte</h4>
+                    <p>Smooth espresso mixed with chilled milk, creamy, mild, slightly sweet and refreshing flavor.</p>
+                    <p>$20</p>
+                    <button class="btn add-to-cart" data-name="Iced Latte" data-price="20">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cold Drink -->
+
+        <!-- Ground Coffee -->
+
+        <div class="section">
+            <h2>GROUND COFFEE</h2>
+            <hr>
+            <div class="row">
+                <div class="fivecol">
+                    <img src="./images/g1.webp" alt="Ethiopian Yirgacheffe">
+                    <h4>Ethiopian Yirgacheffe</h4>
+                    <p>Floral, bright, light-bodied with citrus and subtle berry notes</p>
+                    <p>$250</p>
+                    <button class="btn add-to-cart" data-name="Ethiopian Yirgacheffe" data-price="250">Add to
+                        Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/g-2.webp" alt="Colombian Supremo">
+                    <h4>Colombian Supremo</h4>
+                    <p>Smooth, balanced, medium-bodied, mild chocolate and nutty flavours.</p>
+                    <p>$330</p>
+                    <button class="btn add-to-cart" data-name="Colombian Supremo" data-price="330">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/g3.jpg" alt="Sumatra Mandheling">
+                    <h4>Sumatra Mandheling</h4>
+                    <p>Earthy, full-bodied, low acidity, hints of chocolate and spice.</p>
+                    <p>$300</p>
+                    <button class="btn add-to-cart" data-name="Sumatra Mandheling" data-price="300">Add to
+                        Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/g4.png" alt="Guatemalan Antigua">
+                    <h4>Guatemalan Antigua</h4>
+                    <p>Rich, full-bodied, smoky with chocolate and subtle fruity undertones.</p>
+                    <p>$200</p>
+                    <button class="btn add-to-cart" data-name="Guatemalan Antigue" data-price="200">Add to
+                        Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/g5.webp" alt="Brazil Santos">
+                    <h4>Brazil Santos</h4>
+                    <p>Sweet, medium-bodied, nutty, mild chocolate flavor, smooth and balanced.</p>
+                    <p>$200</p>
+                    <button class="btn add-to-cart" data-name="Brazil Santos" data-price="200">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ground Coffee -->
+
+        <!-- Coffee Bean -->
+
+        <div class="section">
+            <h2>COFFEE BEAN</h2>
+            <hr>
+            <div class="row">
+                <div class="fivecol">
+                    <img src="./images/cb1.jpg" alt="Arabica">
+                    <h4>Arabica</h4>
+                    <p>Smooth, sweet, mild acidity, hints of chocolate, nuts and fruity flavours.</p>
+                    <p>$200</p>
+                    <button class="btn add-to-cart" data-name="Arabica" data-price="200">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/cb2.webp" alt="Robusta">
+                    <h4>Robusta</h4>
+                    <p>Strong, bitter, full-bodied with earthy and nutty undertones.</p>
+                    <p>$250</p>
+                    <button class="btn add-to-cart" data-name="Robusta" data-price="250">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/cb3.webp" alt="">
+                    <h4>Liberica</h4>
+                    <p>Unique, floral, fruity, slightly smoky with bold and complex flavor.</p>
+                    <p>$250</p>
+                    <button class="btn add-to-cart" data-name="Liberica" data-price="250">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/cb4.webp" alt="Excelsa">
+                    <h4>Excelsa</h4>
+                    <p>Tart, fruity, dark, complex with hints of berries and mild bitterness.</p>
+                    <p>$200</p>
+                    <button class="btn add-to-cart" data-name="Excelsa" data-price="200">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/cb5.webp" alt="Mocha">
+                    <h4>Mocha</h4>
+                    <p>Sweet, chocolaty, rich, medium-bodied, smooth with subtle fruit notes.</p>
+                    <p>$250</p>
+                    <button class="btn add-to-cart" data-name="Mocha" data-price="250">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coffee Bean -->
+
+        <!-- Dessert -->
+
+        <div class="section">
+            <h2>Dessert</h2>
+            <hr>
+            <div class="row">
+                <div class="fivecol">
+                    <img src="./images/d1.jpg" alt="raspberries yogurt Parfaits">
+                    <h4>Raspberry Yogurt Parfaits</h4>
+                    <p>Creamy, tanfy yogurt with crunchy granola, sweet-trat raspberries perfectly refreshing layers.
+                    </p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Raspberry Yogurt Parfaits" data-price="10">Add to
+                        Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/d2.jpg" alt="French Macarons">
+                    <h4>French Macarons</h4>
+                    <p>Delicate, crisp shells with chewy centers, bursting with sweet, fruity and nutty flavors..</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="French Macarons" data-price="10">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/d3.jpg" alt="Cherry Tiramisu">
+                    <h4>Cherry Tiramisu</h4>
+                    <p>Creamy mascarpone layers with soft sponge, rich cocoa and sweet-tart cherries balancing
+                        perfectly.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Cherry Tiramisu" data-price="10">Add to Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/d4.jpg" alt="Assorted ice Cream Scoops">
+                    <h4>Assorted Ice Cream Scoops</h4>
+                    <p>Creamy, smooth and cold with rich chocolate, nutty crunch, fruity sweetness and refreshing
+                        vanilla harmony.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="Assorted Ice Cream Scoops" data-price="10">Add to
+                        Cart</button>
+                </div>
+                <div class="fivecol">
+                    <img src="./images/d5.jpg" alt="White Chocolate & Milk Chocolate Mountain">
+                    <h4>White Chocolate & Milk Chocolae Mountain Cake</h4>
+                    <p>Rich, creamy white chocolate with smooth milk chocolate, sweet, velvety and gently nutty.</p>
+                    <p>$10</p>
+                    <button class="btn add-to-cart" data-name="White Chocolate & Milk Chocolae Mountain Cake"
+                        data-price="10">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <footer class="ft">
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col-5">
+                        <h2 class="color">Bean Boutique </h2>
+                        <p>Bean Boutique is a cozy coffee destination offering premium brews, fresh pastries, and warm
+                            service for unforgettable café experiences.</p>
+                    </div>
+                    <div class="col5">
+                        <h3 class="color">Quick Search</h3>
+                        <a href="index.html" class="link">Home</a>
+                        <a href="coffee.html" class="link">Coffee Selection</a>
+                        <a href="equipment.html" class="link">Equipment</a>
+                        <a href="events.html" class="link">Events</a>
+                        <a href="cart.html" class="link">Cart</a>
+                        <a href="subs.html" class="link">Subscription</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="color">Contact Information</h3>
+                        <p> N0.24, Nyaung Qtr, Taunggyi</p>
+                        <p> beanboutique@gmail.com</p>
+                        <p>09423450194</p>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="color">Follow Us</h3>
+                        <i class="bi bi-facebook icon"></i>
+                        <i class="bi bi-twitter icon"></i>
+                        <i class="bi bi-instagram icon"></i>
+                        <i class="bi bi-linkedin icon"></i>
+                        <i class="bi bi-tiktok  icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

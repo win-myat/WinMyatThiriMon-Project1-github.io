@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Workshops</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body id="cart-page">
+    <!-- nav bar -->
+   <div class="container-fluid">
+        <div class="logo">Bean <span class="color">Boutique</span> <img src="./images/cup-of-drink.png" alt=""></div>
+        <div class="nav" id="cafenav">
+            <a href="index.html">Home</a>
+            <a href="coffee.html">Coffee Selection</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="events.html">Events</a>
+            <a href="cart.html" class="active">Cart</a>
+            <a href="subs.html">Subscriptions</a>
+            <a href="javascript:void(0);" class="icon" onclick=" myFunction()">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+    </div>
+    <!-- nav bar -->
+
+    <!-- cart -->
+    <div class="container">
+        <h1 class="text-center">Your Cart</h1>
+        <table class="table">
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+            <tbody id="cart-body"></tbody>
+
+        </table>
+        <h3 class="text-end">Total $ <span id="total">10.00</span></h3>
+        <br>
+         <a href="coffee.html " class="btn">Back to Coffee Selection</a>
+    </div>
+    <br>
+
+    <!-- cart -->
+
+    <!-- footer -->
+<footer class="ft">
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col-5">
+                        <h2 class="color">Bean Boutique </h2>
+                        <p>Bean Boutique is a cozy coffee destination offering premium brews, fresh pastries, and warm service for unforgettable café experiences.</p>
+                    </div>
+                    <div class="col5">
+                        <h3 class="color">Quick Search</h3>
+                        <a href="index.html" class="link">Home</a>
+                        <a href="coffee.html" class="link">Coffee Selection</a>
+                        <a href="equipment.html" class="link">Equipment</a>
+                        <a href="events.html" class="link">Events</a>
+                        <a href="cart.html" class="link">Cart</a>
+                        <a href="subs.html" class="link">Subscription</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="color">Contact Information</h3>
+                        <p> N0.24, Nyaung Qtr, Taunggyi</p>
+                        <p> beanboutique@gmail.com</p>
+                        <p>09423450194</p>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="color">Follow Us</h3>
+                        <i class="bi bi-facebook icon"></i>
+                        <i class="bi bi-twitter icon"></i>
+                        <i class="bi bi-instagram icon"></i>
+                        <i class="bi bi-linkedin icon"></i>
+                        <i class="bi bi-tiktok  icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
